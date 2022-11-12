@@ -1,0 +1,105 @@
+/* body{
+     background-image: url('../images/background/backgroundImage.jpg');
+} */
+.logoCss{
+    height: 80px;
+    width: 100%;
+}
+.logoCss:hover{
+    cursor: pointer;
+}
+li{
+    padding-right: 15px;
+    font-size: 24px;
+    color: #8d691d;
+}
+li:hover{
+    text-decoration: underline;
+}
+.anchor:hover{
+    color: #8d691d;
+}
+.card:hover{
+    box-shadow: 10px 10px 5px #888;
+}
+
+/*  Rejected Shopping Bag CSS  */
+/* #shoppingBag{
+    display: none;
+    right: 0;
+    overflow: visible;
+    height: 80%;
+    width: 300px;
+    z-index: 3;
+    background-color: antiquewhite;
+    overflow-y: auto;
+} */
+
+
+.productsIndex{
+    z-index: 0;
+}
+.smallBagBtn{
+    display: none;
+    position: absolute;
+    float: right;
+    top: 1%;
+    right: 1%;
+    opacity: 0.9;
+}
+.has-error{
+    border: 1px solid red;
+}
+.bi:hover{
+    background-color: black;
+    color: white;
+}
+.noFocus:focus{
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0;
+}
+.biButton:hover{
+    background-color: none;
+}
+
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}  
+/* IMAGE STYLES */
+[type=radio] + i {
+    cursor: pointer;
+}
+  /* CHECKED STYLES */
+[type=radio]:checked + i {
+    outline: 2px solid black;
+}
+.productBagDiv{
+    height: 200px;
+    width: 100%;
+}
+
+/* Shopping Bag */
+.modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    right: 0px;
+}
+.modal-content {
+    height: 100%;
+}
+/* Shopping Bag */
+
+/* Product Div to Display in bag */
+#productBagDiv{
+    display: none;
+}
